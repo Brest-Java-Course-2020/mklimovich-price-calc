@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.text.spi.NumberFormatProvider;
 import java.util.List;
 import java.util.Scanner;
 
@@ -24,9 +23,9 @@ public class App {
         do {
 
             if (i == 0) {
-                System.out.println("Please, enter distance or Q for exit: ");
+                System.out.println("enter distance or Q for exit: ");
             } else {
-                System.out.println("Please, enter weight or Q for exit: ");
+                System.out.println("enter weight or Q for exit: ");
             }
 
             inputValue = scanner.next();
